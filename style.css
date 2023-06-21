@@ -1,0 +1,108 @@
+:root {
+  --font: 1.4rem;
+  --font-family: arial, sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  background: url("./img/Japan_anime_clouds_street_bycicle_house_sky-1954133.jpg!d")
+    no-repeat center fixed;
+  background-size: cover;
+}
+header {
+  height: 10%;
+}
+.nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 20px;
+}
+.nav img {
+  width: 15px;
+  height: 15px;
+  margin-left: 13px;
+}
+.container-list {
+  display: flex;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  padding-right: 18px;
+  font-family: var(--font-family);
+  font-size: var(--font);
+  color: white;
+}
+
+main {
+  height: 90%;
+}
+.container-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+
+.logo-google {
+  width: 280px;
+  height: 160px;
+}
+.container-input {
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  padding: 10px 20px;
+  background-color: white;
+}
+.input {
+  margin-left: 12px;
+  font-size: 16px;
+  border: none;
+  width: 450px;
+  font-family: "Urbanist", sans-serif;
+}
+.input:focus {
+  outline: none;
+}
+.icono1 {
+  width: 15px;
+  height: 15px;
+}
+.icono2 {
+  width: 19px;
+  height: 19px;
+}
+.container-button {
+  height: 40%;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+.button {
+  padding: 10px 15px;
+  border: none;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  background-color: white;
+  color: #1a73e8;
+}
+.button img {
+  margin-right: 10px;
+  width: 12px;
+  height: 12px;
+}
