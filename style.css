@@ -44,6 +44,7 @@ li a {
   font-family: var(--font-family);
   font-size: var(--font);
   color: white;
+  font-size: 18px;
 }
 
 main {
@@ -105,4 +106,20 @@ main {
   margin-right: 10px;
   width: 12px;
   height: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+  .container-input {
+    width: 80%;
+  }
+  .input {
+    width: 75%;
+  }
+  .logo-google {
+    width: 240px;
+    height: 130px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
 }
