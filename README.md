@@ -1,10 +1,9 @@
 # [Replica de Página Google🌐 ](https://sarasegura.github.io/replica-google/)
 
 
-<img src="https://github.com/sarasegura/replica-google/assets/137323950/9b9072af-1953-4700-9429-4cda14bdb015" width="300" height="150" >
-
 ¡Bienvenid@ a la replica de Página Google con Toque Personal! Este proyecto tiene como objetivo recrear la estructura visual de la página de inicio de Google utilizando HTML y CSS. Además, incorpora un toque personalizado cuando el usuario no está registrado, ofreciendo una experiencia única.
 
+<img src="https://github.com/sarasegura/replica-google/assets/137323950/9b9072af-1953-4700-9429-4cda14bdb015" width="350" height="100" >
 ## Objetivos del Proyecto
 
 - **Replicación Visual:** Lograr una reproducción visual precisa de la página de inicio de Google.
