@@ -111,6 +111,7 @@ main {
 @media only screen and (max-width: 767px) {
   .container-input {
     width: 80%;
+    max-width: 350px;
   }
   .input {
     width: 75%;
