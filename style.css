@@ -112,6 +112,7 @@ main {
   .container-input {
     width: 80%;
     max-width: 350px;
+    padding: 5px 10px;
   }
   .input {
     width: 75%;
